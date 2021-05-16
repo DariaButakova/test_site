@@ -5,11 +5,77 @@ $title="Главная";
 ?>
 <div class="after_main_menu">
     <img src="images/icone.PNG" alt="" width="220" height="70">
+    <script src="script_menu.js"></script>
     <div class="button_catalog_block">
-        <button class="button_catalog">
-            <div class="button_catalog_img"> <img src="images/button_main_menu.PNG" alt=""> </div>
+        <button class="button_catalog" id="button_catalog" onclick="return false">
+            <div class="button_catalog_img"> <img id="img_catalog" src="images/button_main_menu.PNG" alt=""> </div>
             <div class="button_catalog_text"> Каталог</div>
         </button>
+      <div id="scroll" class="dropdown-content">      
+          <div class="content_main_menu">
+              <img src="images/main_menu1.PNG" alt="">
+             <ul class="list_main_menu"><a  href="#"><h4 id="aa"> Овощи, фрукты, ягоды </h4></a> 
+                 <li><a href="#">Фрукты и ягоды</a></li>
+                 <li><a href="#">Овощи</a></li>
+                 <li><a href="#">Зелень</a></li>
+              </ul>
+          </div>
+     <div class="content_main_menu">
+         <img src="images/main_menu2.PNG" alt="">
+         <a href="#"><h4 id="aa"> Рыба, икра</h4></a></div>
+     <div class="content_main_menu">
+         <img src="images/main_menu3.PNG" alt="">
+         <a href="#"><h4 id="aa">Популярные товары </h4></a> </div>
+    <div class="content_main_menu">
+        <img src="images/main_menu1.PNG" alt="">
+        <a href="#"><h4 id="aa">Новое поступление</h4></a></div>
+          <div> 
+          <div id="main_menu2" class="content_main_menu">
+        <img src="images/main_menu4.PNG" alt="">
+         <ul class="list_main_menu"><a href="#"><h4 id="aa">Птица, мясо</h4></a>
+               <li><a href="#">Птица</a></li>
+                 <li><a href="#">Говядина</a></li>
+                 <li><a href="#">Свинина</a></li>
+              </ul>
+             </div>
+               <div id="main_menu2" class="content_main_menu">
+        <img src="images/main_menu5.PNG" alt="">
+        <a href="#"><h4 id="aa">Молоко, сыр, яйца</h4></a></div>
+               <div id="main_menu2" class="content_main_menu">
+        <img src="images/main_menu6.PNG" alt="">
+        <a href="#"><h4 id="aa">Вода, соки, напитки</h4></a></div>
+               <div id="main_menu2" class="content_main_menu">
+        <img src="images/main_menu7.PNG" alt="">
+        <a href="#"><h4 id="aa">Чай, кофе</h4></a></div>
+              </div>
+          <div> 
+              <div id="main_menu2" class="content_main_menu">
+        <img src="images/main_menu5.PNG" alt="">
+        <a href="#"><h4 id="aa">Орехи</h4></a></div>
+          <div id="main_menu2" class="content_main_menu">
+        <img src="images/main_menu4.PNG" alt="">
+         <ul class="list_main_menu"><a href="#"><h4 id="aa">Хлеб, сдоба, выпечка</h4></a>
+               <li><a href="#">Хлеб</a></li>
+                 <li><a href="#">Булочки, сдоба</a></li>
+                 <li><a href="#">Рулеты, круассаны, кексы</a></li>
+              </ul>
+             </div>
+               <div id="main_menu2" class="content_main_menu">
+        <img src="images/main_menu6.PNG" alt="">
+        <a href="#"><h4 id="aa">Круппы, специи</h4></a></div>
+               <div id="main_menu2" class="content_main_menu">
+        <img src="images/main_menu4.PNG" alt="">
+         <ul class="list_main_menu"><a href="#"><h4 id="aa">Товыры для дома</h4></a>
+               <li><a href="#">Хранение</a></li>
+              </ul>
+             </div>
+              </div>
+          <div> 
+              <div id="main_menu2" class="content_main_menu">
+        <img src="images/main_menu5.PNG" alt="">
+        <a href="#"><h4 id="aa">Красота, гигиена</h4></a></div>
+              </div>
+  </div>
     </div>
     <div class="search_block">
         <form class="search">
@@ -49,6 +115,8 @@ $title="Главная";
         <div class="arrow-left-1" id="next_1"></div>
         <div class="arrow-right-1" id="prev_1"></div>
     </div>
+    <div class="main_page_slider_hidden"> 
+        <div class="main_page_slider">
     <script src="main_page_block_1_script.js"></script>
     <div class="main_page_rectangle">
         <div id="0_sale_block_1" class="rectangle_sale"> </div>
@@ -115,6 +183,73 @@ $title="Главная";
             <div class="button_main_page_img"> <img src="images/button_cart_main_page.PNG" alt=""> </div>
         </button>
     </div>
+    <div class="main_page_rectangle">
+        <div id="5_sale_block_1" class="rectangle_sale"> </div>
+        <img src="" id="5_rectangle_img_block_1" width="240px" height="190px" />
+        <a href="">
+            <div id="5_name_product_block_1" class="name_product"></div>
+        </a>
+        <div id="5_price_with_sale_block_1" class="price_with_sale"></div>
+        <div id="5_price_product_block_1" class="price_product"></div>
+        <button class="button_main_page">
+            <div class="button_main_page_text">В корзину</div>
+            <div class="button_main_page_img"> <img src="images/button_cart_main_page.PNG" alt=""> </div>
+        </button>
+    </div>
+    <div class="main_page_rectangle">
+        <div id="6_sale_block_1" class="rectangle_sale"> </div>
+        <img src="" id="6_rectangle_img_block_1" width="240px" height="190px" />
+        <a href="">
+            <div id="6_name_product_block_1" class="name_product"></div>
+        </a>
+        <div id="6_price_with_sale_block_1" class="price_with_sale"></div>
+        <div id="6_price_product_block_1" class="price_product"></div>
+        <button class="button_main_page">
+            <div class="button_main_page_text">В корзину</div>
+            <div class="button_main_page_img"> <img src="images/button_cart_main_page.PNG" alt=""> </div>
+        </button>
+    </div>
+    <div class="main_page_rectangle">
+        <div id="7_sale_block_1" class="rectangle_sale"> </div>
+        <img src="" id="7_rectangle_img_block_1" width="240px" height="190px" />
+        <a href="">
+            <div id="7_name_product_block_1" class="name_product"></div>
+        </a>
+        <div id="7_price_with_sale_block_1" class="price_with_sale"></div>
+        <div id="7_price_product_block_1" class="price_product"></div>
+        <button class="button_main_page">
+            <div class="button_main_page_text">В корзину</div>
+            <div class="button_main_page_img"> <img src="images/button_cart_main_page.PNG" alt=""> </div>
+        </button>
+    </div>
+    <div class="main_page_rectangle">
+        <div id="8_sale_block_1" class="rectangle_sale"> </div>
+        <img src="" id="8_rectangle_img_block_1" width="240px" height="190px" />
+        <a href="">
+            <div id="8_name_product_block_1" class="name_product"></div>
+        </a>
+        <div id="8_price_with_sale_block_1" class="price_with_sale"></div>
+        <div id="8_price_product_block_1" class="price_product"></div>
+        <button class="button_main_page">
+            <div class="button_main_page_text">В корзину</div>
+            <div class="button_main_page_img"> <img src="images/button_cart_main_page.PNG" alt=""> </div>
+        </button>
+    </div>
+    <div class="main_page_rectangle">
+        <div id="9_sale_block_1" class="rectangle_sale"> </div>
+        <img src="" id="9_rectangle_img_block_1" width="240px" height="190px" />
+        <a href="">
+            <div id="9_name_product_block_1" class="name_product"></div>
+        </a>
+        <div id="9_price_with_sale_block_1" class="price_with_sale"></div>
+        <div id="9_price_product_block_1" class="price_product"></div>
+        <button class="button_main_page">
+            <div class="button_main_page_text">В корзину</div>
+            <div class="button_main_page_img"> <img src="images/button_cart_main_page.PNG" alt=""> </div>
+        </button>
+    </div>
+        </div>
+        </div>
 </div>
 <div class="big_banners">
     <div class="rectangle_banner_big">
@@ -308,20 +443,32 @@ $title="Главная";
 
 <div class="blocks">
     <h1>Бренды</h1>
+    <script src="script_brand.js"></script>
     <div class="arrow-1">
-        <div class="arrow-left-1"></div>
-        <div class="arrow-right-1"></div>
+        <div class="arrow-left-1" id="left_brand"></div>
+        <div class="arrow-right-1" id="right_brand"></div>
     </div>
-    <div class="rectangle_block_brand">
-        <img src="images/brand1.PNG" /></div>
-    <div class="rectangle_block_brand">
-        <img src="images/brand2.PNG" /></div>
-    <div class="rectangle_block_brand">
-        <img src="images/brand3.PNG" /></div>
-    <div class="rectangle_block_brand">
-        <img src="images/brand4.PNG" /></div>
-    <div class="rectangle_block_brand">
-        <img src="images/brand5.PNG" /></div>
+    <div class="brand_i"> 
+    <ul class="image_brand" id="scroll_brand"> 
+   <li> <div class="rectangle_block_brand">
+        <img src="images/brand1.PNG" /></div></li> 
+    <li><div class="rectangle_block_brand">
+        <img src="images/brand2.PNG" /></div></li> 
+    <li><div class="rectangle_block_brand">
+        <img src="images/brand3.PNG" /></div></li> 
+    <li><div class="rectangle_block_brand">
+        <img src="images/brand4.PNG" /></div></li> 
+    <li><div class="rectangle_block_brand">
+        <img src="images/brand5.PNG" /></div></li> 
+        
+        <li><div class="rectangle_block_brand">
+        <img src="images/brand3.PNG" /></div></li> 
+    <li><div class="rectangle_block_brand">
+        <img src="images/brand4.PNG" /></div></li> 
+    <li><div class="rectangle_block_brand">
+        <img src="images/brand5.PNG" /></div></li> 
+    </ul>
+        </div>
 </div>
 
 <div class="blocks">

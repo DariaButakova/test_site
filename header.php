@@ -6,6 +6,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
         <meta name="description" content="Обучение">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta content='true' name='HandheldFriendly'/>
+<meta content='width' name='MobileOptimized'/>
+<meta content='yes' name='apple-mobile-web-app-capable'/>
         <link rel="stylesheet" type="text/css" href="main1.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">

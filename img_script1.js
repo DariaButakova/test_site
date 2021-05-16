@@ -34,6 +34,7 @@ function animation(){
              } 
               }   
     $('.slider').animate({marginLeft:margin},1000);  
+   
       
 };
   function func_count(){

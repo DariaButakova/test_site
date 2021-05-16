@@ -47,6 +47,7 @@ a {
 .button_catalog_block {
     margin-left: 260px;
     margin-top: -60px;
+    position: relative;
 }
 
 .button_catalog {
@@ -75,6 +76,77 @@ a {
 .button_catalog:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+ border: 1px solid black;   
+  min-width: 950px;   
+  z-index: 1;
+  margin-top: 8px;
+  margin-left: -50px;
+ 
+}
+
+.dropdown-content a{
+  padding-left: 35px;
+}
+
+.list_main_menu{
+   list-style: none;
+    margin: -20px;
+}
+
+#scroll{
+     overflow: scroll; 
+    overflow-x: hidden;
+       height: 300px;
+}
+
+#scroll::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;    
+  background-color: #f9f9fd;
+}
+
+#scroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #1f7d63;
+}
+
+#scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+.list_main_menu li{
+    margin: 4px;
+    margin-left: -10px;
+}
+
+h4{
+    margin: 0;
+}
+
+#aa{
+  text-align-last: center;
+}
+
+#main_menu2{
+  margin-top: 105px;
+  margin-bottom: 10px;
+}
+
+.content_main_menu{
+    float: left;
+    width: 240px;
+    height: 190px;
+    margin-right: 2px;
+    list-style: none;
+    margin-left: 15px;
+}
+.show {display: block;}
 
 .search_block {
     margin-left: 440px;
@@ -331,14 +403,24 @@ ul.circle li.active {
 .arrow-right-1:hover {
     box-shadow: 0 3px 5px rgb(0 0 0 / 20%);
 }
+.main_page_slider_hidden {
+       width: 1240px;
+    height: 355px;
+    overflow: hidden;
+}
 
+.main_page_slider {
+   position: relative;
+    width: 2480px;
+    height: 355px;;
+}
 .main_page_rectangle {
-    display: inline-block;
+   display: inline-block;
     width: 242px;
     height: 350px;
     border: 1px solid gray;
     border-radius: 5px;
-    margin-right: 3px;
+    margin-right: 1px;
 }
 
 .rectangle_sale {
@@ -517,12 +599,34 @@ h3 {
     font-size: 20px;
 }
 
-.rectangle_block_brand {
-    display: inline-block;
+.brand_i {
+    width: 1250px;
+    height: 160px;
+    overflow: hidden;
+}
+
+ul.image_brand {
+      position: relative;
+    list-style: none;       
+    width: 1936px;  
+}
+
+ul.image_brand li{
+    list-style: none;
+     float: left;
+}
+
+#scroll_brand{
+    overflow: scroll;
+    overflow-y: hidden;
+}
+
+.rectangle_block_brand {   
     width: 240px;
-    height: 150px;
+    height: 160px;
     margin-right: 2px;
 }
+
 
 .promotions {
     float: left;
@@ -683,6 +787,7 @@ footer {
 .block_footer {
     float: left;
     margin-right: 115px;
+    margin-top: 20px;
 }
 
 .list_footer {
