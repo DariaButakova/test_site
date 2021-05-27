@@ -31,9 +31,9 @@ class NewsDB {
     } 
 }
 $data_array = array(); 
-$data = null;
+//$data = null;
     $mysqli = new mysqli("localhost", "mysql", "mysql", "products");  
-    $array=[];
+    //$array=[];
 /* Проверить соединение */ 
     if ($mysqli->connect_errno) {
     //printf("Соединение не удалось: %s\n", $mysqli->connect_error);
@@ -58,7 +58,7 @@ else{
           $data->setImage($lol);
           
            array_push($data_array, $data);
-      }
+    }
 
 echo json_encode($data_array); 
 

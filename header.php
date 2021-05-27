@@ -25,7 +25,7 @@
       <li> <a href="">Контакты</a>  </li>
       <li> <a href="">Доставка</a>  </li>
       <li> <a href="">Оплата</a>  </li>
-      <li> <a href="">Личный кабинет</a> </li> 
+      <li> <a href="form_registration.php">Личный кабинет</a> </li> 
       <li> <a href="">Акции</a> </li>
     </ul>
 <span class="text_main_menu_time">Доставка с 8:00 до 23:00</span>

@@ -26,14 +26,15 @@
             if (!state) {
                 $form.find("#check_block")
                     .after('<div class="error">Необходимо подтвердить согласие</div>');
-                flag14 = 1;
+                flag4 = 1;
             }
-            if (flag1 == 1 && flag2 == 1 && flag3 == 1 && flag4 == 1) {
+           
+            if (flag1 == 0 && flag2 == 0 && flag3 == 0 && flag4 == 0) {
                 $.post(
                     'send.php',
                     $form.serialize(),
                     function (msg) { 
-                       alert("rfe");
+                       
                     }
                 );
             }

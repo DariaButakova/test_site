@@ -845,3 +845,97 @@ footer {
 .footer_text {
     padding-top: 30px;
 }
+
+.registration_form{
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 410px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.password_form{
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.registration_head{
+    text-align: center;
+}
+
+.name_email1 {
+    width: 280px;
+    height: 40px;
+    margin-left: 4px;
+    border-radius: 5px;
+    background: #f7f7f7;
+    border: none;   
+}
+
+.input_block_registration{
+  padding-top: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.button_registration1 {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #1f7d63;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+}
+
+.button_registration2 {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color:darkgrey;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+}
+
+.button_registration1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button_registration2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button_registration_center{
+    text-align: center;
+}
+
+.error1{
+    font-size: small;
+    color: red;  
+}
+
+.account_text{
+  text-align: center;
+    font-size: large;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#button_exit{
+   cursor: pointer;
+    margin-left: 1100px;
+}
